@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="chat">
-        <div class="screen join-screen">
+        <div class="screen join-screen active">
             <div class="form">
                 <h2>Join Chatroom</h2>
                 <div class="form-input">
@@ -20,28 +20,14 @@
                 </div>
             </div>
         </div>
-        <div class="screen chat-screen active">
+        <div class="screen chat-screen">
             <div class="header">
                 <div class="logo">Chatroom</div>
                 <button id="exit-chat">Exit</button>
             </div>
             <div class="msgs">
                 <!--Fake message-->
-                <div class="msg my-msg">
-                    <div>
-                        <div class="name">YOU</div>
-                        <div class="text">Hi</div>
-                    </div>
-                </div>
-                <div class="update">
-                    name is joined the conversation
-                </div>
-                <div class="msg other-msg">
-                    <div>
-                        <div class="name">name</div>
-                        <div class="text">Hi</div>
-                    </div>
-                </div>
+               
             </div>
             <div class="typebox">
                 <input type="text" id="input-msg">
